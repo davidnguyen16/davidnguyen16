@@ -2,7 +2,6 @@
   Hi there 👋
 </h1>
 
----
 
 <p align="center">
   <strong>I’m Mạnh Duy Nguyễn — welcome to my portfolio!</strong><br>
@@ -16,7 +15,6 @@ Feel free to browse my projects below!
 
 
 # 🚀 Full-Stack & Software Projects
----
 ## 📚 Library Management System (Java)
 A complete console-based library system featuring:
 - Object-oriented design with classes for Book, Member, Loan, and Category  
