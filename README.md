@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <strong>I’m Mạnh Duy Nguyễn — welcome to my portfolio!</strong><br>
+  <strong>I’m David — welcome to my portfolio!</strong><br>
   Sydney, Australia
 </p>
 
