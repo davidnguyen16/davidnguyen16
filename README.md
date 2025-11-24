@@ -1,64 +1,56 @@
-Hi there 👋
-I’m Jasmine - This is my portfolio. Have a look around!
-Syndey, Australia
+<h1 align="center" style="font-size: 60px;">
+  Hi there 👋
+</h1>
 
-📫 How to reach me:
+---
+
+<p align="center">
+  <strong>I’m Mạnh Duy Nguyễn — welcome to my portfolio!</strong><br>
+  Sydney, Australia
+</p>
 
 
-Here are some of my recent projects focused on machine learning, AI, and data science. Feel free to explore them below!
+🌱 About Me  
+I’m an IT student at Macquarie University with a strong interest in **full-stack development**, backend engineering, and building real-world applications. I love learning how systems work from front to back from designing databases to building APIs and developing clean, responsive UIs. 
+Feel free to browse my projects below!
 
-📈 Data Analysis Using Machine Learning Algorithms
-🏠 Analysing and predicting Melbourne airbnb listed prices
 
-Data cleaning, feature transformation, and variable relationship analysis.
-Employing Regression ML for Melbourne Airbnb price predictions and feature impact identification.
-Empowering strategic decision-making for property owners.
-🏠 Predictive Analysis of Sydney House Prices: Exploring Determinants from 2000 to 2019
+# 🚀 Full-Stack & Software Projects
+---
+## 📚 Library Management System (Java)
+A complete console-based library system featuring:
+- Object-oriented design with classes for Book, Member, Loan, and Category  
+- Recursive data structures, linked lists, and OOP principles  
+- File I/O using CSV for saving/loading data  
+- FIFO hold requests, loan limits, return/overdue logic  
+- Full menu-driven client UI  
+✨ *This was my biggest Java project and helped me build strong backend fundamentals.*
 
-Data cleaning, feature transformation, and variable relationship analysis.
-Employing Regression ML for Sydney house price predictions and feature impact identification.
-Empowering strategic decision-making for property owners.
-🛒 Supermarket customer segmentation & marketing techniques recommendations
 
-Exploratory data analysis, presenting summary statistics and relevant insights.
-Apply clustering techniques to identify customer segments.
-Provide actionable marketing recommendations tailored to each customer segment group.
-🧠 Deep Learning and AI Projects
-🔗 Query-Focused Summarization for Medical Questions
+## 🛍️ Wonky Furniture Store — SQL Database Project
+A full relational database system built from scratch:
+- Conceptual → EER → Logical modelling  
+- MySQL schema design with PK/FK, CHECK, ENUM, indexes  
+- Complex SQL queries, stored procedures, functions, and advanced triggers  
+- Concurrency & transaction handling (ACID, isolation levels)  
+- Scenarios for payments, loyalty points, refunds, returns, and order workflows  
+✨ *This project strengthened my database design and SQL problem-solving skills.*
 
-Developed deep learning models for query-focused summarization in the medical domain using data from the BioASQ Challenge.
-Implemented Models:
-Siamese Neural Network: Achieved F1 score of 0.5333.
-LSTM-Based Neural Network: Achieved the best F1 score of 0.6392.
-Transformer-Based Model with BERT: Achieved an F1 score of 0.4286 with perfect recall.
-Key Features:
-Built custom summarization functions for retrieving top n relevant sentences.
-Conducted extensive model evaluations and hyperparameter tuning.
-Future Enhancements:
-Fine-tuning Transformer models, implementing data augmentation, and deploying summarization as a web application.
-🖼️ Weather Image Classification
 
-Classified weather images into categories: Cloudy, Rain, Shine, and Sunrise.
-Implemented Models:
-Simple Neural Network: 81.07% accuracy.
-Complex Neural Network: 89.35% accuracy.
-CNN: 99.41% accuracy.
-Transfer Learning with MobileNetV2: Achieved 100% accuracy on the test set.
-Key Features:
-Conducted hyperparameter tuning with Keras Tuner for optimal performance.
-Implemented transfer learning using MobileNetV2 for state-of-the-art accuracy.
-Future Enhancements:
-Explore additional pre-trained models, improve data augmentation, and deploy the best model using Streamlit or Flask.
-🧩 Data Manipulation with SQL
-🚛 Meraki delivery company: database design and optimized SQL queries.
-Unveiling needs, aligning goals with EER, and Logical Transformation.
-Crafting efficient EER diagram, applying Logical Transformation.
-Creating SQL database from refined architecture.
-Actionable insights: Extracting valuable business data via SQL query.
-🎨 Data Visualisation
-Tableau:
-📊 Australian Born Member Demographics (1996-2016): Lebanon, North Macedonia, Scotland, South Africa, Vietnam.
-❓ Decline of Young Asian Immigrants in Australia (1996-2016)
-MS PowerBI:
-📊 Data Professional Survey Analysis
-View Count 
+## 🌐 Library Management Dashboard (HTML, CSS, JavaScript)
+A front-end dashboard inspired by my Java backend:
+- Three main modules: Books, Members, Loans  
+- CRUD UI for each section  
+- Clean responsive UI (CSS Flexbox)  
+- JS tab switching, form handling, and DOM manipulation  
+✨ *This project helped me start thinking like a full-stack engineer.*
+
+
+## 🐍 Python Data Analysis & Visualisation
+Projects include:
+- Exploratory data analysis (EDA) using Pandas, NumPy  
+- Data cleaning, preprocessing, and visualisation  
+- Scatter plots, histograms, correlation heatmaps  
+- Multi-variable analysis with Matplotlib  
+✨ *Improved my analytical skills and confidence working with data.*
+
