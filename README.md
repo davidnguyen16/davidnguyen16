@@ -43,6 +43,16 @@ A front-end dashboard inspired by my Java backend:
 - JS tab switching, form handling, and DOM manipulation  
 ✨ *This project helped me start thinking like a full-stack engineer.*
 
+## 🏬 [**BNCL Retail — SQL Database Automation Project**](https://github.com/davidnguyen16/Database-Design-and-SQL-Implementation-for-BNCL-Retail-System)
+A fully automated retail database system built to enforce business rules and streamline order workflows:
+- End-to-end database design following BNCL’s strict business rules (BR1–BR10)
+- SQL Functions for loyalty point calculation, gift card validation, and business-rule logic
+- Stored procedures covering checkout automation, payment verification, and redemption workflows
+- Advanced SQL triggers ensuring data integrity for stock control, loyalty adjustments, returns & refunds
+- Comprehensive test cases validating normal, boundary, and error scenarios
+- Payment models including gift cards, loyalty points, and Afterpay installments
+- Automated handling for order states: Processing, Delivered, Cancelled, Returned
+
 
 ## 🐍 Python Data Analysis & Visualisation
 Projects include:
