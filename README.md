@@ -35,7 +35,7 @@ A full relational database system built from scratch:
 ✨ *This project strengthened my database design and SQL problem-solving skills.*
 
 
-## ⛅ AeroWeather (Next.js 16, React 19, TypeScript, Tailwind CSS v4)
+## ⛅ [**AeroWeather (Next.js 16, React 19, TypeScript, Tailwind CSS v4**](https://github.com/davidnguyen16/AeroWeather)
 A sleek real-time weather dashboard — no API key, no config, just clone and run:
 - Live city search with Open-Meteo Geocoding + autocomplete debounce  
 - One-click geolocation, current conditions, 5-day & hourly forecast  
