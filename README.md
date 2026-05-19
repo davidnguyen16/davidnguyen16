@@ -28,20 +28,22 @@ A complete console-based library system featuring:
 ## 🛍️ Wonky Furniture Store — SQL Database Project
 A full relational database system built from scratch:
 - Conceptual → EER → Logical modelling  
-- MySQL schema design with PK/FK, CHECK, ENUM, indexes  
+- MySQL schema design with PK/FK, CHECK, ENUM, and indexes  
 - Complex SQL queries, stored procedures, functions, and advanced triggers  
 - Concurrency & transaction handling (ACID, isolation levels)  
 - Scenarios for payments, loyalty points, refunds, returns, and order workflows  
 ✨ *This project strengthened my database design and SQL problem-solving skills.*
 
 
-## 🌐 Library Management Dashboard (HTML, CSS, JavaScript)
-A front-end dashboard inspired by my Java backend:
-- Three main modules: Books, Members, Loans  
-- CRUD UI for each section  
-- Clean responsive UI (CSS Flexbox)  
-- JS tab switching, form handling, and DOM manipulation  
-✨ *This project helped me start thinking like a full-stack engineer.*
+## ⛅ AeroWeather (Next.js 16, React 19, TypeScript, Tailwind CSS v4)
+A sleek real-time weather dashboard — no API key, no config, just clone and run:
+- Live city search with Open-Meteo Geocoding + autocomplete debounce  
+- One-click geolocation, current conditions, 5-day & hourly forecast  
+- Live local clock synced to the searched city's IANA timezone  
+- Dark / Light mode with WMO-accurate weather icons  
+- Clean component architecture: custom hooks (`useWeather`, `useForecast`, `useHourly`) over a generic `useWeatherData<T>`  
+✨ *This project sharpened my skills in React hooks, API integration, and building production-ready front-end architecture.*
+
 
 ## 🏬 [**BNCL Retail — SQL Database Automation Project**](https://github.com/davidnguyen16/Database-Design-and-SQL-Implementation-for-BNCL-Retail-System)
 A fully automated retail database system built to enforce business rules and streamline order workflows:
