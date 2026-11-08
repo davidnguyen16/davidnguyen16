@@ -37,7 +37,6 @@ A browser-based workspace for creating diagrams and exploring connected 2D and l
 - Imports draw.io and VSDX files; exports PNG, JPEG, PDF, and native `.easydraw` documents.
 - Includes automated tests and configuration from an earlier AWS deployment using ECS Fargate, RDS, S3, ECR, and GitHub Actions.
 - Added optional Redis-backed caching for per-user dashboard listings, with a 60-second TTL and automatic invalidation after document updates to reduce repeated database queries.
-- Deploying and Hosting on an Ubuntu OS - ARM64 Architecture Virtual Machine in AWS EC2 Service
 - **Metrics:** p95 API latency ≤180 ms at 50 RPS | Reliability: (SLI: 99.97% availability over 30 days; SLO: ≥99.95%; SLA: ≥99.9% monthly) | Correctness: 99.8% against reference cases (998/1,000) | Effectiveness: ≥94% task completion rate.
 
 ### [Lernumi: Learning & Assessment Platform](https://github.com/davidnguyen16/Lernumi)
@@ -57,6 +56,7 @@ A learning platform that connects subjects, assessments, deadlines, workspaces, 
 - Connects submission review, marking, feedback, and official results.
 - Supports independently packaged learning tools and recorded-session review and replay.
 - Includes Docker environments and Jenkins CI for backend tests, frontend checks, builds, and browser workflows.
+- Deploying and hosting the backend on an ARM64-based AWS EC2 instance running Ubuntu Server.
 - **Metrics:** p95 latency ≤200 ms at 50 RPS | Reliability: (SLI: 99.74% availability over 30 days; SLO: ≥99.95%; SLA: ≥99.9% monthly) | Correctness: 100% of critical test cases passed | Effectiveness: ≥95% task completion rate.
 
 ---
