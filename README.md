@@ -55,13 +55,13 @@ A learning platform that connects subjects, assessments, deadlines, workspaces, 
 - Connects submission review, marking, feedback, and official results.
 - Supports independently packaged learning tools and recorded-session review and replay.
 - Includes Docker environments and Jenkins CI for backend tests, frontend checks, builds, and browser workflows.
-- **Metrics to track:** p95 latency ≤200 ms at 50 RPS | Reliability: (SLI: 99.74% availability over 30 days; SLO: ≥99.95%; SLA: ≥99.9% monthly) | Correctness: 100% of critical test cases passed | Effectiveness: ≥95% task completion rate.
+- **Metrics:** p95 latency ≤200 ms at 50 RPS | Reliability: (SLI: 99.74% availability over 30 days; SLO: ≥99.95%; SLA: ≥99.9% monthly) | Correctness: 100% of critical test cases passed | Effectiveness: ≥95% task completion rate.
 
 ---
 
 ## Skills Summary
 
-**Frontend Development:** React | Next.js | TypeScript | Tailwind CSS | User-centred UI Design | Responsive Interfaces | API Integration
+**Frontend Development:** React | Next.js | TypeScript | Tailwind CSS | User-centred UI Design | Responsive Interfaces | Micro-Frontend Design | API Integration
 
 **Backend Development:** Node.js | PHP | Laravel & NestJS | RESTful APIs | Prisma & Eloquent ORM | JWT & Session with OAuth 2.0 Authentication | JWT & Session with OAuth 2.0 Authentication | Role-Based Access Controls Authorization
 
