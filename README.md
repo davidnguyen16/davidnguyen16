@@ -45,7 +45,7 @@ A browser-based workspace for creating diagrams and exploring connected 2D and l
 - **Backend:** PHP | Laravel | Eloquent ORM | Laravel Sanctum | REST APIs
 - **Database:** PostgreSQL
 - **Cloud Infrastructure & CI/CD Pipeline:** Docker | Nginx | AWS EC2 | AWS S3 | Jenkins  
-**Type:**  Project | **Status:** Deployed
+**Type:**  Applied Project | **Status:** Deployed
 
 A learning platform that connects subjects, assessments, deadlines, workspaces, submissions, and feedback.
 
