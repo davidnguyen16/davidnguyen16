@@ -13,6 +13,7 @@
   </a>
 </p>
 I’m a software engineer dedicated to helping businesses build practical desktop and web applications. I focus on creating reliable, maintainable systems that scale with demand and evolve with changing business needs. Have a look around at my portfolio.
+
 ---
 
 ## Full-Stack & Interactive Applications
