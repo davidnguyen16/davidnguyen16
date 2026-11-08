@@ -3,7 +3,7 @@
 <p align="center">
   <strong>David Nguyen</strong><br/>
   Bachelor of IT, specializing in Software Technology at Macquarie University<br/>
-  Full-stack Development · Software engineering<br/>
+  Full-stack Development · Software Engineering<br/>
   Sydney, Australia
 </p>
 
