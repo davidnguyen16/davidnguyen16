@@ -2,8 +2,8 @@
 
 <p align="center">
   <strong>David Nguyen</strong><br/>
-  IT student at Macquarie University<br/>
-  Full-stack development · Backend engineering<br/>
+  Bachelor of IT, specializing in Software Technology at Macquarie University<br/>
+  Full-stack Development · Software engineering<br/>
   Sydney, Australia
 </p>
 
@@ -11,13 +11,8 @@
   <a href="https://www.linkedin.com/in/manh-duy-david-nguyen-529a17350/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect with David on LinkedIn"/>
   </a>
-  <a href="https://github.com/davidnguyen16?tab=repositories">
-    <img src="https://img.shields.io/badge/GitHub_Projects-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore my GitHub projects"/>
-  </a>
 </p>
-
-I enjoy building practical applications and understanding how they work from the interface through to the API and database. My projects explore visual editing, learning workflows, database design, and application deployment.
-
+I’m a software engineer dedicated to helping businesses build practical desktop and web applications. I focus on creating reliable, maintainable systems that scale with demand and evolve with changing business needs. Have a look around at my portfolio.
 ---
 
 ## Full-Stack & Interactive Applications
@@ -29,10 +24,10 @@ I enjoy building practical applications and understanding how they work from the
 - **Frontend:** Next.js | React | TypeScript | React Flow | Three.js
 - **Backend:** Node.js | NestJS | TypeScript | Prisma ORM
 - **Database:** PostgreSQL
-- **Cloud Infrastructure & CI/CD Pipeline:** Docker | GitHub Actions | AWS Amplify | ECS Fargate | ECR | RDS | S3 *(cloud deployment archived)*
-- **AI Model / Integration:** OpenAI Responses API for sketch-to-diagram previews *(optional; configurable model)*
+- **Cloud Infrastructure & CI/CD Pipeline:** Docker | GitHub Actions | AWS Amplify | ECS Fargate | ECR | RDS | S3 
+- **AI Model / Integration:** OpenAI Responses API for sketch-to-diagram previews 
 
-**Type:** Full-Stack Application | **Status:** Local-first; previous cloud deployment retired
+**Type:** Full-Stack Application | **Status:** 
 
 A browser-based workspace for creating diagrams and exploring connected 2D and live 3D views.
 
