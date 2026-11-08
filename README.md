@@ -60,12 +60,10 @@ A learning platform that connects subjects, assessments, deadlines, workspaces, 
 
 ## Skills Summary
 
-**Languages:** TypeScript | JavaScript | PHP | SQL | Java | Python
+**Frontend Development:** React | Next.js | TypeScript | Tailwind CSS | User-centred UI Design | Responsive Interfaces | API Integration
 
-**Web Development:** React | Next.js | NestJS | Laravel | Tailwind CSS | REST APIs
+**Backend Development:** Node.js | PHP | Laravel & NestJS | RESTful APIs | Prisma & Eloquent ORM | JWT & Session with OAuth 2.0 Authentication | JWT & Session with OAuth 2.0 Authentication | Role-Based Access Controls Authorization
 
-**Databases:** PostgreSQL | MySQL | Prisma | Relational Modelling | Transactions
+**Database Design:** PostgreSQL & MySQL | MongoDB | ERDs Modelling | Querry Index Optimisation | Data Constraint | Transactions & Data Validation
 
-**Visual Applications:** React Flow | Three.js | 2D/3D Editing | Document Workflows
-
-**Delivery & Testing:** Git | Docker | Jenkins | GitHub Actions | AWS | Playwright | PHPUnit
+**Cloud Infrastructure & CI/CD Pipeline Automation:** Docker & AWS | Nginx | Jenkins & GitHub Actions | AWS EC2 | AWS ECS Fargate | AWS RDS | AWS S3 | Automated Testing | Deployment Workflows
