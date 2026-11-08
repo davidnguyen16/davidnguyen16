@@ -23,7 +23,7 @@ I’m a software engineer dedicated to helping businesses build practical deskto
 **Tech Stack:**
 
 - **Frontend:** Next.js | React | TypeScript | React Flow | Three.js
-- **Backend:** Node.js | NestJS | TypeScript | Prisma ORM
+- **Backend:** Node.js | NestJS | TypeScript | Prisma ORM | RESTful APIs
 - **Database:** PostgreSQL
 - **Cloud Infrastructure & CI/CD Pipeline:** Docker | GitHub Actions | AWS Amplify | AWS ECS Fargate | AWS ECR | AWS RDS | AWS S3 
 - **AI Model / Integration:** OpenAI Responses API for sketch-to-diagram previews 
@@ -43,7 +43,7 @@ A browser-based workspace for creating diagrams and exploring connected 2D and l
 **Tech Stack:**
 
 - **Frontend:** Next.js | React | TypeScript | Tailwind CSS
-- **Backend:** PHP | Laravel | Eloquent ORM | Laravel Sanctum | REST APIs
+- **Backend:** PHP | Laravel | Eloquent ORM | Laravel Sanctum | RESTful APIs
 - **Database:** PostgreSQL
 - **Cloud Infrastructure & CI/CD Pipeline:** Docker | Nginx | AWS EC2 | AWS S3 | Jenkins  
 **Type:**  Applied Project | **Status:** Deployed
