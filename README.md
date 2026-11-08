@@ -24,7 +24,14 @@ I enjoy building practical applications and understanding how they work from the
 
 ### [EasyDraw — 2D & 3D Visual Workspace](https://github.com/davidnguyen16/easydraw)
 
-**Tech Stack:** Next.js | React | TypeScript | React Flow | Three.js | NestJS | Prisma | PostgreSQL  
+**Tech Stack:**
+
+- **Frontend:** Next.js | React | TypeScript | React Flow | Three.js
+- **Backend:** Node.js | NestJS | TypeScript | Prisma ORM
+- **Database:** PostgreSQL
+- **Cloud Infrastructure & CI/CD Pipeline:** Docker | GitHub Actions | AWS Amplify | ECS Fargate | ECR | RDS | S3 *(cloud deployment archived)*
+- **AI Model / Integration:** OpenAI Responses API for sketch-to-diagram previews *(optional; configurable model)*
+
 **Type:** Full-Stack Application | **Status:** Local-first; previous cloud deployment retired
 
 A browser-based workspace for creating diagrams and exploring connected 2D and live 3D views.
