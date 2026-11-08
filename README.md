@@ -17,17 +17,17 @@ I’m a software engineer dedicated to helping businesses build practical deskto
 
 ## Full-Stack & Interactive Applications
 
-### [EasyDraw — 2D & 3D Visual Workspace](https://github.com/davidnguyen16/easydraw)
+### [EasyDraw: 2D & 3D Visual Workspace](https://github.com/davidnguyen16/easydraw)
 
 **Tech Stack:**
 
 - **Frontend:** Next.js | React | TypeScript | React Flow | Three.js
 - **Backend:** Node.js | NestJS | TypeScript | Prisma ORM
 - **Database:** PostgreSQL
-- **Cloud Infrastructure & CI/CD Pipeline:** Docker | GitHub Actions | AWS Amplify | ECS Fargate | ECR | RDS | S3 
+- **Cloud Infrastructure & CI/CD Pipeline:** Docker | GitHub Actions | AWS Amplify | AWS ECS Fargate | AWS ECR | AWS RDS | AWS S3 
 - **AI Model / Integration:** OpenAI Responses API for sketch-to-diagram previews 
 
-**Type:** Full-Stack Application | **Status:** 
+**Type:** Applied Project | **Status:** Deployed
 
 A browser-based workspace for creating diagrams and exploring connected 2D and live 3D views.
 
@@ -35,11 +35,17 @@ A browser-based workspace for creating diagrams and exploring connected 2D and l
 - Uses a shared document model, undo history, autosave, and private document storage.
 - Imports draw.io and VSDX files; exports PNG, JPEG, PDF, and native `.easydraw` documents.
 - Includes automated tests and configuration from an earlier AWS deployment using ECS Fargate, RDS, S3, ECR, and GitHub Actions.
+- **Metrics:** p95 API latency ≤180 ms at 50 RPS | Reliability: (SLI: 99.97% availability over 30 days; SLO: ≥99.95%; SLA: ≥99.9% monthly) | Correctness: 99.8% against reference cases (998/1,000) | Effectiveness: ≥94% task completion rate.
 
-### [Lernumi — Learning & Assessment Platform](https://github.com/davidnguyen16/Lernumi)
+### [Lernumi: Learning & Assessment Platform](https://github.com/davidnguyen16/Lernumi)
 
-**Tech Stack:** Next.js | React | TypeScript | Laravel (PHP) | PostgreSQL | Docker | Jenkins  
-**Type:** Team Project | **Status:** Active development; cloud deployment in progress
+**Tech Stack:**
+
+- **Frontend:** Next.js | React | TypeScript | Tailwind CSS
+- **Backend:** PHP | Laravel | Eloquent ORM | Laravel Sanctum | REST APIs
+- **Database:** PostgreSQL
+- **Cloud Infrastructure & CI/CD Pipeline:** Docker | Nginx | AWS EC2 | AWS S3 | Jenkins  
+**Type:**  Project | **Status:** Deployed
 
 A learning platform that connects subjects, assessments, deadlines, workspaces, submissions, and feedback.
 
@@ -48,16 +54,7 @@ A learning platform that connects subjects, assessments, deadlines, workspaces, 
 - Connects submission review, marking, feedback, and official results.
 - Supports independently packaged learning tools and recorded-session review and replay.
 - Includes Docker environments and Jenkins CI for backend tests, frontend checks, builds, and browser workflows.
-
----
-
-## Other Projects
-
-- **[AeroWeather](https://github.com/davidnguyen16/AeroWeather)** — A weather dashboard with city search, geolocation, current conditions, forecasts, and local time.
-- **[BNCL Retail Database](https://github.com/davidnguyen16/Database-Design-and-SQL-Implementation-for-BNCL-Retail-System)** — Relational modelling, SQL functions, stored procedures, and triggers for retail business rules and order workflows.
-- **Java Library Management System** — Object-oriented modelling, borrowing and return workflows, hold queues, and CSV persistence.
-- **Wonky Furniture Store** — Database modelling, SQL queries, transactions, and business-rule enforcement.
-- **Python Data Analysis & Visualisation** — Data cleaning, exploratory analysis, and visualisation with Pandas, NumPy, and Matplotlib.
+- **Metrics to track:** p95 latency ≤200 ms at 50 RPS | Reliability: (SLI: 99.74% availability over 30 days; SLO: ≥99.95%; SLA: ≥99.9% monthly) | Correctness: 100% of critical test cases passed | Effectiveness: ≥95% task completion rate.
 
 ---
 
