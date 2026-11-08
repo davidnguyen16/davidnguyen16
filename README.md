@@ -1,66 +1,72 @@
-<h1 align="center" style="font-size: 60px;">
-  Hi there 👋
-</h1>
-
+<h1 align="center">Hi there 👋</h1>
 
 <p align="center">
-  <strong>I’m David — welcome to my portfolio!</strong><br>
+  <strong>David Nguyen</strong><br/>
+  IT student at Macquarie University<br/>
+  Full-stack development · Backend engineering<br/>
   Sydney, Australia
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/manh-duy-david-nguyen-529a17350/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect with David on LinkedIn"/>
+  </a>
+  <a href="https://github.com/davidnguyen16?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub_Projects-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore my GitHub projects"/>
+  </a>
+</p>
 
-🌱 About Me  
-I’m an IT student at Macquarie University with a strong interest in **full-stack development**, backend engineering, and building real-world applications. I love learning how systems work from front to back from designing databases to building APIs and developing clean, responsive UIs. 
-Feel free to browse my projects below!
+I enjoy building practical applications and understanding how they work from the interface through to the API and database. My projects explore visual editing, learning workflows, database design, and application deployment.
 
+---
 
-# 🚀 Full-Stack & Software Projects
-## 📚 Library Management System (Java)
-A complete console-based library system featuring:
-- Object-oriented design with classes for Book, Member, Loan, and Category  
-- Recursive data structures, linked lists, and OOP principles  
-- File I/O using CSV for saving/loading data  
-- FIFO hold requests, loan limits, return/overdue logic  
-- Full menu-driven client UI  
-✨ *This was my biggest Java project and helped me build strong backend fundamentals.*
+## Full-Stack & Interactive Applications
 
+### [EasyDraw — 2D & 3D Visual Workspace](https://github.com/davidnguyen16/easydraw)
 
-## 🛍️ Wonky Furniture Store — SQL Database Project
-A full relational database system built from scratch:
-- Conceptual → EER → Logical modelling  
-- MySQL schema design with PK/FK, CHECK, ENUM, and indexes  
-- Complex SQL queries, stored procedures, functions, and advanced triggers  
-- Concurrency & transaction handling (ACID, isolation levels)  
-- Scenarios for payments, loyalty points, refunds, returns, and order workflows  
-✨ *This project strengthened my database design and SQL problem-solving skills.*
+**Tech Stack:** Next.js | React | TypeScript | React Flow | Three.js | NestJS | Prisma | PostgreSQL  
+**Type:** Full-Stack Application | **Status:** Local-first; previous cloud deployment retired
 
+A browser-based workspace for creating diagrams and exploring connected 2D and live 3D views.
 
-## ⛅ [**AeroWeather (Next.js 16, React 19, TypeScript, Tailwind CSS v4**](https://github.com/davidnguyen16/AeroWeather)
-A sleek real-time weather dashboard — no API key, no config, just clone and run:
-- Live city search with Open-Meteo Geocoding + autocomplete debounce  
-- One-click geolocation, current conditions, 5-day & hourly forecast  
-- Live local clock synced to the searched city's IANA timezone  
-- Dark / Light mode with WMO-accurate weather icons  
-- Clean component architecture: custom hooks (`useWeather`, `useForecast`, `useHourly`) over a generic `useWeatherData<T>`  
-✨ *This project sharpened my skills in React hooks, API integration, and building production-ready front-end architecture.*
+- Supports visual editing, whiteboards, multi-page documents, and reusable objects.
+- Uses a shared document model, undo history, autosave, and private document storage.
+- Imports draw.io and VSDX files; exports PNG, JPEG, PDF, and native `.easydraw` documents.
+- Includes automated tests and configuration from an earlier AWS deployment using ECS Fargate, RDS, S3, ECR, and GitHub Actions.
 
+### [Lernumi — Learning & Assessment Platform](https://github.com/davidnguyen16/Lernumi)
 
-## 🏬 [**BNCL Retail — SQL Database Automation Project**](https://github.com/davidnguyen16/Database-Design-and-SQL-Implementation-for-BNCL-Retail-System)
-A fully automated retail database system built to enforce business rules and streamline order workflows:
-- End-to-end database design following BNCL’s strict business rules (BR1–BR10)
-- SQL Functions for loyalty point calculation, gift card validation, and business-rule logic
-- Stored procedures covering checkout automation, payment verification, and redemption workflows
-- Advanced SQL triggers ensuring data integrity for stock control, loyalty adjustments, returns & refunds
-- Comprehensive test cases validating normal, boundary, and error scenarios
-- Payment models including gift cards, loyalty points, and Afterpay installments
-- Automated handling for order states: Processing, Delivered, Cancelled, Returned
+**Tech Stack:** Next.js | React | TypeScript | Laravel (PHP) | PostgreSQL | Docker | Jenkins  
+**Type:** Team Project | **Status:** Active development; cloud deployment in progress
 
+A learning platform that connects subjects, assessments, deadlines, workspaces, submissions, and feedback.
 
-## 🐍 Python Data Analysis & Visualisation
-Projects include:
-- Exploratory data analysis (EDA) using Pandas, NumPy  
-- Data cleaning, preprocessing, and visualisation  
-- Scatter plots, histograms, correlation heatmaps  
-- Multi-variable analysis with Matplotlib  
-✨ *Improved my analytical skills and confidence working with data.*
+- Supports personal and assessment workspaces, file organisation, study planning, and individual or group submissions.
+- Provides roles and permissions scoped to institutions and courses.
+- Connects submission review, marking, feedback, and official results.
+- Supports independently packaged learning tools and recorded-session review and replay.
+- Includes Docker environments and Jenkins CI for backend tests, frontend checks, builds, and browser workflows.
 
+---
+
+## Other Projects
+
+- **[AeroWeather](https://github.com/davidnguyen16/AeroWeather)** — A weather dashboard with city search, geolocation, current conditions, forecasts, and local time.
+- **[BNCL Retail Database](https://github.com/davidnguyen16/Database-Design-and-SQL-Implementation-for-BNCL-Retail-System)** — Relational modelling, SQL functions, stored procedures, and triggers for retail business rules and order workflows.
+- **Java Library Management System** — Object-oriented modelling, borrowing and return workflows, hold queues, and CSV persistence.
+- **Wonky Furniture Store** — Database modelling, SQL queries, transactions, and business-rule enforcement.
+- **Python Data Analysis & Visualisation** — Data cleaning, exploratory analysis, and visualisation with Pandas, NumPy, and Matplotlib.
+
+---
+
+## Skills Summary
+
+**Languages:** TypeScript | JavaScript | PHP | SQL | Java | Python
+
+**Web Development:** React | Next.js | NestJS | Laravel | Tailwind CSS | REST APIs
+
+**Databases:** PostgreSQL | MySQL | Prisma | Relational Modelling | Transactions
+
+**Visual Applications:** React Flow | Three.js | 2D/3D Editing | Document Workflows
+
+**Delivery & Testing:** Git | Docker | Jenkins | GitHub Actions | AWS | Playwright | PHPUnit
