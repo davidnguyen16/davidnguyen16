@@ -24,7 +24,7 @@ I’m a software engineer dedicated to helping businesses build practical deskto
 
 - **Frontend:** Next.js | React | TypeScript | React Flow | Three.js
 - **Backend:** Node.js | NestJS | TypeScript | Prisma ORM | RESTful APIs
-- **Database:** PostgreSQL
+- **Database:** PostgreSQL | Redis
 - **Cloud Infrastructure & CI/CD Pipeline:** Docker | GitHub Actions | AWS Amplify | AWS ECS Fargate | AWS ECR | AWS RDS | AWS S3 
 - **AI Model / Integration:** OpenAI Responses API for sketch-to-diagram previews 
 
@@ -36,6 +36,8 @@ A browser-based workspace for creating diagrams and exploring connected 2D and l
 - Uses a shared document model, undo history, autosave, and private document storage.
 - Imports draw.io and VSDX files; exports PNG, JPEG, PDF, and native `.easydraw` documents.
 - Includes automated tests and configuration from an earlier AWS deployment using ECS Fargate, RDS, S3, ECR, and GitHub Actions.
+- Added optional Redis-backed caching for per-user dashboard listings, with a 60-second TTL and automatic invalidation after document updates to reduce repeated database queries.
+- Deploying and Hosting on an Ubuntu OS - ARM64 Architecture Virtual Machine in AWS EC2 Service
 - **Metrics:** p95 API latency ≤180 ms at 50 RPS | Reliability: (SLI: 99.97% availability over 30 days; SLO: ≥99.95%; SLA: ≥99.9% monthly) | Correctness: 99.8% against reference cases (998/1,000) | Effectiveness: ≥94% task completion rate.
 
 ### [Lernumi: Learning & Assessment Platform](https://github.com/davidnguyen16/Lernumi)
@@ -63,7 +65,7 @@ A learning platform that connects subjects, assessments, deadlines, workspaces, 
 
 **Frontend Development:** React | Next.js | TypeScript | Tailwind CSS | User-centred UI Design | Responsive Interfaces | Micro-Frontend Design | API Integration
 
-**Backend Development:** Node.js | PHP | Laravel & NestJS | RESTful APIs | Prisma & Eloquent ORM | JWT & Session with OAuth 2.0 Authentication | JWT & Session with OAuth 2.0 Authentication | Role-Based Access Controls Authorization
+**Backend Development:** Node.js | PHP | Laravel & NestJS | RESTful APIs | Prisma & Eloquent ORM | JWT & Session with OAuth 2.0 Authentication | JWT & Session with OAuth 2.0 Authentication | Role-Based Access Controls Authorization | Caching Management with Redis
 
 **Database Design:** PostgreSQL & MySQL | MongoDB | ERDs Modelling | Querry Index Optimisation | Data Constraint | Transactions & Data Validation
 
